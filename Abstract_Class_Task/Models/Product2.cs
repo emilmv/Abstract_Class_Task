@@ -10,10 +10,10 @@ namespace Abstract_Class_Task.Models
     {
         public int No { get; set; }
         public string Name { get; set; }
-        public int Price { get; set; }
+        public double Price { get; set; }
         public int Count { get; set; }
 
-        public Product2(int no, string name, int price, int count)
+        public Product2(int no, string name, double price, int count)
         {
             No = no;
             Name = name;
@@ -27,7 +27,7 @@ namespace Abstract_Class_Task.Models
     {
         public string Genre { get; set; }
 
-        public Book(int no, string name, int price, int count, string genre) : base(no, name, price, count)
+        public Book(int no, string name, double price, int count, string genre) : base(no, name, price, count)
         {
             Genre=genre;
         }
