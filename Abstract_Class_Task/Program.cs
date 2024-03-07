@@ -14,12 +14,12 @@ namespace Abstract_Class_Task
             #endregion
 
             #region Task2
-            Product product = new Product();
-            product.Name = "BMW M5 F90 LCI";
-            product.Count = 1;
-            product.Price = 300000;
-            product.Detail();
-            product.Discount();
+            //Product product = new Product();
+            //product.Name = "BMW M5 F90 LCI";
+            //product.Count = 1;
+            //product.Price = 300000;
+            //product.Detail();
+            //product.Discount();
             #endregion
 
             #region Task3
